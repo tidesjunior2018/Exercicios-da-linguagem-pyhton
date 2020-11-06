@@ -1,3 +1,6 @@
+'''
+9-Faça um programa que leia um número qualquer e mostre na tela a sua tabuada.
+'''
 n = int(input('Qual número você que saber a tabuada: '))
 print('Tabuada do número {} :'.format(n))
 print('-'*10)

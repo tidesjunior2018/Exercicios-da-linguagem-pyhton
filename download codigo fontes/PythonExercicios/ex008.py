@@ -1,3 +1,8 @@
+'''
+8-Escreva um valor em metros e exiba convertido em centímetros e milímetros.
+
+                        km hm dam m dm cm mm  
+'''
 m = float(input('Distância em metros: '))
 km = m / 1000
 hm = m / 100
