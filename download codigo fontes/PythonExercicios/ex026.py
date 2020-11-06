@@ -1,0 +1,8 @@
+frase = str(input('Digite uma frase : ')).strip()
+frasem = frase.upper()
+contadora = frasem.count('A')
+print('A letra A aparece {} vezes.'.format(contadora))
+acharaletra = frasem.find('A')
+print('A primeira letra A começou na posição {}'.format(acharaletra + 1))
+acharultimaletra = frasem.rfind('A')
+print('A última letra A está na posição {}'.format(acharultimaletra + 1))
