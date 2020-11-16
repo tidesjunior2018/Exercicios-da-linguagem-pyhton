@@ -1,3 +1,13 @@
+'''
+17-Faça um programa que leia um comprimento do cateto oposto e do cateto adjacente de um triângulo retângulo e mostre o comprimento da hipotenusa.
+
+Ex: |   \
+    |    \
+    |     \
+    |      \
+    |       \
+    |_ _ _ _ \
+'''
 import math
 catetooposto = float(input('Digite o comprimento do cateto oposto: '))
 catetoadjacente = float(input('Digite o comprimento do cateto adjacente: '))
