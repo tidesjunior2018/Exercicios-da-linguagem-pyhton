@@ -1,3 +1,6 @@
+'''
+18-Faça um programa que leia um ângulo qualquer e mostre seno,cosseno e tangente desse ângulo.
+'''
 import math
 angulo = int(input('Digite o ângulo que você quer:'))
 seno = math.sin(math.radians(angulo))
