@@ -1,3 +1,6 @@
+'''
+32-Faça um programa que leia um ano qualquer e mostre se ele bissexto.
+'''
 import time
 import datetime
 #0 = 2019
