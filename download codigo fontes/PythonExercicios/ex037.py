@@ -1,3 +1,10 @@
+'''
+37-Escreva um programa que leia um número inteiro qualquer e para o usuário escolher qual será a base de conversão.
+==> [1] para binário
+==> [2] para octal
+==> [3] para hexadecimal
+'''
+
 numero=int(input("Digite um numero inteiro: "))
 print('''Escolha uma opcão para base de conversao: 
 [1] - Converter para BINÁRIO

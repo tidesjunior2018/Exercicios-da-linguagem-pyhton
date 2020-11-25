@@ -1,3 +1,9 @@
+'''
+39-Faça um programa que leia o ano de nascimento e informe,de acordo com a sua idade se ele ainda vai se alistar ao serviço militar,se é hora de se alistar ou se já passou do tempo do alistamento.
+Seu programa também deverá mostrar o tempo que falta ou que passou do prazo.
+'''
+
+
 from datetime import date
 anonascimento=int(input('Ano de nascimento: '))
 anoatual=date.today().year
