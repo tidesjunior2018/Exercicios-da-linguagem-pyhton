@@ -1,3 +1,10 @@
+'''
+43-Desenvolva uma lógica que leia o peso e altura de uma pessoa,calcule seu imc e mostre seu status de acordo com a tabela abaixo:
+
+->Abaixo de 18.5:Abaixo do peso     ->25 até 30:Sobrepeso
+->Entre 18.5 e 25:Peso ideal        ->30 até 40:Obesidade
+                                    ->Acima de 40:Obesidade mórbida
+'''
 peso=float(input('Qual é o seu peso?(Kg)'))
 altura=float(input('Qual é a sua altura?(m²)'))
 imc=peso/(altura*altura)
