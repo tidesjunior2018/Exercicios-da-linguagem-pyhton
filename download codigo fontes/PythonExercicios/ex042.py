@@ -1,3 +1,11 @@
+'''
+42-Refaça o desafio 35 dos triângulos,acrescentando o recurso de mostrar que tipo de triângulo será formado.
+
+==>Equilátero:Todos os lados iguais. 
+==>Isósceles:Dois lados iguais.
+==>Escaleno:Todos os lados diferentes.
+'''
+
 print('-'*50)
 print('ANALISADOR DE TRIÂNGULO VERSÂO 2.0')
 print('-'*50)
