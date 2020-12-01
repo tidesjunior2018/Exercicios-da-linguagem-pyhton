@@ -1,3 +1,10 @@
+'''
+44-Elabore um programa que calcule um valor a ser pago por um produto,considerando o seu preço normal e a condição de pagamento:
+
+->À vista dinheiro/cheque:10% de desconto       ->Em até 2X no cartão:preço normal
+->À vista no cartão:5% de desconto              ->3X ou mais no cartão:20% de juros
+'''
+
 print('{:-^50}'.format('SUPERMECADOS EXTRA'))# centralizar
 valorprod=float(input('Qual o valor do produto:R$ '))
 print('Valor do produto : R$ {:.2f}'.format(valorprod))
