@@ -1,3 +1,6 @@
+'''
+45-Crie um programa que faça o computador jogar JOKENPÔ com você.
+'''
 from random import randint
 from time import sleep
 itens=('pedra','papel','tesoura')
