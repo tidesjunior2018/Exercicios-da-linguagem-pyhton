@@ -1,3 +1,7 @@
+'''
+52-Faça um programa que leia um número inteiro e diga se ele ou não número
+primo.
+'''
 num=int(input('Digite o numero: '))
 cont=0
 for c in range(1,num+1):
