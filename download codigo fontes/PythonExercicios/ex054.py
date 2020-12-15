@@ -1,3 +1,8 @@
+'''
+54-Crie um programa que leia o ano de nascimento de sete pessoas.No final
+mostre quantas pessoas ainda não atingiram a maioridade e quantas já são
+maiores.
+'''
 import datetime
 anoatual=datetime.date.today().year
 cont=0#contador de menores
