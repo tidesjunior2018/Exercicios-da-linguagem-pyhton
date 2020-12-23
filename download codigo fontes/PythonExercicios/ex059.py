@@ -1,3 +1,15 @@
+'''
+59-Crie um programa que leia dois valores e mostre o menu como abaixo na
+tela:
+
+[1]-SOMAR
+[2]-MULTIPLICAR
+[3]-MAIOR
+[4]-NOVOS NÚMEROS
+[5]-SAIR
+
+Seu programa deverá realizar a operação solicitada em cada caso.
+'''
 from time import sleep
 sair=False
 num1=float(input('Valor 1: '))
