@@ -1,3 +1,8 @@
+'''
+58-Melhore o jogo do desafio 028 onde o computador vai "pensar" em um numero
+entre 0 e 10.Só que agora vai tentar advinhar até acertar mostrando no final
+quantos palpites foram necessários até vencer.
+'''
 import random
 palpite=0
 print('\033[33m{:=^40}'.format('JOGO DA ADVINHAÇÂO 2.0'))
