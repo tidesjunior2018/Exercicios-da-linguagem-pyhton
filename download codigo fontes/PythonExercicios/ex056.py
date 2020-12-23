@@ -1,7 +1,16 @@
+'''
+56-Desenvolva um programa que leia o nome,idade e sexo de 4 pessoas.No final
+do programa mostre:
+
+=>A média de idade do grupo                 =>Quantas mulheres tem menos de
+                                              20 anos
+=>Qual é o nome do homem mais velho
+
+'''
 soma=0
 maioridade=0
 nomemaisvelho=''
-contmulher=0;
+contmulher=0
 menoridademulher=0
 for pessoas in range(1,5):
     print('{:=^20}'.format('{}ª Pessoa'.format(pessoas)))
