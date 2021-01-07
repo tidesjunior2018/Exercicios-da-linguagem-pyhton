@@ -1,3 +1,6 @@
+'''
+68-Faça um programa que jogue PAR OU IMPAR, com o computador.O jogo só será intrrompido quando o jogador PERDER,mostranto o total de vitórias consecutivas que ele conquistou no final do jogo.
+'''
 from random import randint
 soma=0
 cont=0
