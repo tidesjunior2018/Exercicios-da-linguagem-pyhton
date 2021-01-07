@@ -1,3 +1,6 @@
+'''
+65-Crie um programa que leia vários números inteiros pelo teclado.No final da execução,mostre a média entre todos,e qual foi o maior e o menor valores lidos.O programa deve perguntar se o usuário quer continuar ou não.
+'''
 total=0
 soma=0
 maior=0
