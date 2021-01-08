@@ -1,3 +1,9 @@
+'''
+70-Crie um programa que leia o nome e o preço de vários produtos.O programa deverá perguntar se o usuário quer continuar.No final mostre:
+A)Qual o total gasto na compra.
+B)Quantos produtos custam mais de R$1000,00.
+C)Qual é o nome do produto mais barato.
+'''
 totalcompras=contproduto=menor=contador=0
 nomemaisbarato=''
 print('{:-^70}'.format('CASAS MARQUES'))
