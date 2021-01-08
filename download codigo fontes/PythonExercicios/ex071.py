@@ -1,3 +1,6 @@
+'''
+71-Crie um programa que simule um caixa eletrônico.No início pergunte ao usuário qual o valor a ser sacado(número inteiro) e o programa vai informar quantas cédulas de cada valor vai ser entregue.
+'''
 print('{:=^40}'.format('BANCO MARQUES JUNIOR '))
 valor=int(input('Qual o valor a ser sacado:R$ '))
 total=valor
