@@ -1,3 +1,10 @@
+'''
+75-Desenvolva um programa que leia 4 valores pelo teclado e guarde-os numa tupla.No final mostre:
+
+a)Quantas vezes apareceu o valor 9.
+b)Em posição foi digitado o primeiro valor 3.
+c)Quais foram os números pares.
+'''
 num=(int(input('Digite um número:')),int(input('Digite um número:')),int(input('Digite um número:')),
      int(input('Digite um número:')))
 print('\n')
