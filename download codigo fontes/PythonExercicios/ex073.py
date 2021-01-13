@@ -1,3 +1,11 @@
+'''
+73-Crie uma tupla com os 20 primeiros colocados da tabela do Campeonato Brasileiro de Futebol,na ordem da colocação.Depois mostre:
+
+A)Os 5 primeiros.
+B)Os últimos 4 colocados.
+C)Times em ordem alfabética.
+D)Em que posição está a chapecoense.  
+'''
 times=('Flamengo','Palmeiras','Santos','São Paulo','Corinthians','Internacional','Gremio','Bahia',
        'Atlético-PR','Goiás','Vasco da Gama','Atlético','Fortaleza','Botafogo','Cruzeiro','Ceará SC',
        'CSA','Chapecoense','Avaí')
