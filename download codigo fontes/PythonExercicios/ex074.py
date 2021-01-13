@@ -1,3 +1,6 @@
+'''
+74-Crie um programa que vai gerar cinco números aleatórios e colocá-lo em uma tupla.Depois mostre a listagem de números gerados e indique o maior e o menor que estão na tupla.
+'''
 from random import randint
 tupla=(randint(1,10),randint(1,10),randint(1,10),randint(1,10),randint(1,10))
 print(f'Os valores sorteados são:{tupla}')
