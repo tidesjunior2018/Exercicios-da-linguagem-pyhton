@@ -1,3 +1,6 @@
+'''
+78-Faça um programa que leia 5 valores númericos e guarde em uma lista.No final mostre qual foi o maior e o menor valor digitado e suas respectivas posições.
+'''
 listanumero = list()
 maior = 0
 menor = 0
