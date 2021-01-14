@@ -1,3 +1,6 @@
+'''
+79-Crie um programa onde o usuário possa digitar vários valores númericos.Caso o número já exista lá dentro,ele não será adcionado.No final,serão exibidos em ordem crescente.
+'''
 valores = []
 resp = False
 
