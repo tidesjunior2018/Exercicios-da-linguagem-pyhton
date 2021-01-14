@@ -1,3 +1,6 @@
+'''
+80-Crie um programa que leia cinco valores númericos e guarde-os em uma lista,já na posição correta de inserção(sem usar o sort()).No final mostre a lista ordenada na tela. 
+'''
 lista = list()
 
 for i in range(0, 5):
