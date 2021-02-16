@@ -39,7 +39,12 @@ for p in pessoas:
     print(f'{p}',end='')
 print('\n')
 print(f'Foram cadastradas {totalpessoas} pessoas')
-print(f'O maior peso foi de {maior}Kg')
+print(f'O maior peso foi de {maior}Kg com o nome de ',end=' ')
+
+for p in pessoas:
+    if p[1] == maior:
+        print(f'{p[0]}',end='')
+
 print(f'O menor peso foi de {menor}Kg')
 print('=-'*30)
 print('\n')
