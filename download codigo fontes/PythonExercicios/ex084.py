@@ -45,6 +45,12 @@ for p in pessoas:
     if p[1] == maior:
         print(f'{p[0]}',end='')
 
-print(f'O menor peso foi de {menor}Kg')
+print()
+print(f'O menor peso foi de {menor}Kg com o nome de ',end=' ')
+
+for p in pessoas:
+    if p[1] == menor:
+        print(f'{p[0]}',end='')
+print()
 print('=-'*30)
 print('\n')
