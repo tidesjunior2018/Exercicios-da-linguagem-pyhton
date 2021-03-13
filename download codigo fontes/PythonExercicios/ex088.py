@@ -6,11 +6,9 @@ numerosaleatorios=[]
 
 numerosjogos=int(input('Quer que eu sorteie quantos jogos:'))
 
-for i in range(0,3):
-    sub_numerosaleatorios=[]
+for i in range(numerosjogos):
+    numerosaleatorios=[]
     for j in range(6):
-        sub_numerosaleatorios.append(random.randint(1,60))
-        numerosaleatorios.append(sub_numerosaleatorios)
-
+        numerosaleatorios.append(random.randint(1,61))
     print(f'Jogo {i}:{numerosaleatorios}')
     print()
