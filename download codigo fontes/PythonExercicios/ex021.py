@@ -2,7 +2,7 @@
 21-Faça um programa em Pyhton que abra e reproduza um arquivo mp3.
 '''
 import pygame
-pygame.init()
-pygame.mixer.music.load('ex021.mp3')
-pygame.mixer.music.play()
+pygame.mixer.init()
+musica=pygame.mixer.Sound('ex021.mp3')
+musica.play()
 pygame.event.wait()
