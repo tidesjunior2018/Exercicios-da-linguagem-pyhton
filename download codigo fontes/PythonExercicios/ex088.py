@@ -2,6 +2,7 @@
 88-Faça um programa que ajuda um jogador da MEGASENA a criar PAlPITES.O programa vai perguntar quantos jogos serão gerados e vai sortear 6 números de 1 a 60 para cada jogo cadastrando em uma lista completa.
 '''
 from random import randint
+from time import sleep
 numeros=[]
 jogos=[]
 print('-'*30)
@@ -29,4 +30,7 @@ print('>'*30)
 
 for i,n in enumerate(jogos):
     print(f'Jogo {i+1}: {n}')
+    sleep(2)
+print()
+print('-='*5,'Sucesso nos Jogos','-='*5)
 print()
