@@ -28,7 +28,7 @@ for k,v in jogador.items():
 
 print('-=-'*30)
 
-print(f'O jogador {jogador["nome"]} fez {jogador["total"]} gols')
+print(f'O jogador {jogador["nome"]} fez {partidas} partidas')
 
 for c, gol in enumerate(gols):
     print(f'    => No {c+1}° jogo fez {gol} gols')
