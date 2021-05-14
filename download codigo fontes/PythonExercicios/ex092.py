@@ -14,7 +14,7 @@ trabalhador['CPTS'] = int(input('Carteira de Trabalho(0 não tem):'))
 if trabalhador['CPTS'] != 0:
     trabalhador['ano de contratação'] = int(input('Ano de Contratacao: '))
     trabalhador['salario'] = float(input('Salário:R$ '))
-    trabalhador['diferença'] = trabalhador['ano de contratação'] - trabalhador['ano_nascimento']
+    trabalhador['diferença'] = trabalhador['ano de contratação'] - trabalhador['ano_nascimento']    
     trabalhador['aposentadoria'] = trabalhador['diferença'] + 35
     
 del trabalhador['ano_nascimento']
