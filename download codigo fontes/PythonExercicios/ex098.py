@@ -16,11 +16,15 @@ def contador(inicio, fim, passo):
     if passo == 0:
         passo = 1
 
+    if fim == 0:
+        fim = -1
+
     if inicio < fim:
         if passo < 0:
             passo = abs(passo)
         escreva(f'Contagem de {inicio} até {fim} de {passo} em {passo}')
         cont = inicio
+        fim = fim + 1
         for cont in range(inicio, fim, passo):
             print(f'{cont}', end=' ', flush=True)
             sleep(0.5)
@@ -29,7 +33,7 @@ def contador(inicio, fim, passo):
     if inicio > fim:
         if passo > 0:
             passo *= -1
-        escreva(f'Contagem de {inicio} até {fim} de {abs(passo)} em {abs(passo)}')
+        escreva(f'Contagem de {inicio} até {abs(fim)-1} de {abs(passo)} em {abs(passo)}')
         cont = inicio
         for cont in range(inicio, fim, passo):
             print(f'{cont}', end=' ', flush=True)
