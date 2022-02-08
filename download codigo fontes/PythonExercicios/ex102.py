@@ -24,4 +24,4 @@ def fatorial(n,show=False):
 
 #Programa Principal
 numero=int(input('Qual o número que você quer saber o fatorial:'))
-fatorial(numero,True)
+fatorial(numero)
