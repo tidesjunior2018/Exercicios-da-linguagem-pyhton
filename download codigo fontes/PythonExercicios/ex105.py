@@ -45,6 +45,9 @@ def notas(tam,sit=False):
 
     return alunos
 
-tam=int(input('Digite quantas notas você quer colocar:'))
-turma=notas(tam)
-print(turma)
+tam=int(input('Digite quantas notas você quer colocar:[0 - para saber o que a função notas() faz]'))
+if tam>0:
+    turma=notas(tam)
+    print(turma)
+else:
+    help(notas)
