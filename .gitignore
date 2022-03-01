@@ -123,3 +123,5 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+*.xml
+download codigo fontes/PythonExercicios/ex108/.idea/ex108.iml

@@ -3,18 +3,17 @@
 '''
 import moeda
 preco=float(input('Digite o preço: '))
-taxa=int(input('Digite a taxa: '))
+taxa=int(input('Digite a taxa:[0-para indicar nenhuma taxa] '))
 
 if taxa == 0:
-    precoaumentado=moeda.aumentar(preco)
-    precodiminuido=moeda.diminuir(preco)
-    print(f'O preço normal é de R${precoaumentado}')
+    precoaumentado=moeda.moeda(moeda.aumentar(preco))
+    print(f'O preço sem taxa nenhuma = R${precoaumentado}')
 elif taxa > 0 :
-    precoaumentado=moeda.aumentar(preco,taxa)
-    precodiminuido=moeda.diminuir(preco,taxa)
-    print(f'O preco aumentado com o(s) {taxa}% é de R${precoaumentado}')
-    print(f'O preço diminuido em {taxa}% é de R${precodiminuido}')
-precodobrado=moeda.dobrar(preco)
-print(f'O preco dobrado é de R$ {precodobrado}')
-metadedopreco=moeda.metade(preco)
-print(f'A metade do R${preco} é R${metadedopreco:.2f}')
+    precoaumentado=moeda.moeda(moeda.aumentar(preco,taxa))
+    precodiminuido=moeda.moeda(moeda.diminuir(preco,taxa))
+    print(f'O preço com os {taxa}% = R${precoaumentado}')
+    print(f'O preço sem os {taxa}% = R${precodiminuido}')
+precodobrado=moeda.moeda(moeda.dobrar(preco))
+print(f'O preço {moeda.moeda(preco)} dobrado = {precodobrado}')
+metadedopreco=moeda.moeda(moeda.metade(preco))
+print(f'A metade do preço {moeda.moeda(preco)} = {metadedopreco}')

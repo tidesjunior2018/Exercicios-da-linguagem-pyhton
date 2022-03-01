@@ -1,13 +1,22 @@
-def aumentar(p,taxa=0):
-    p=p+(p*(taxa/100))
-    return p
+'''
+108-Adapte o código do desafio 107 criando uma função adicional chamada moeda() que consiga mostrar os valores como um valor monetário formatado.
+'''
 
-def diminuir(p,taxa=0):
-    p=p-(p*(taxa/100))
-    return p
+def aumentar(p=0,taxa=0):
+    res=p+(p*(taxa/100))
+    return res
 
-def dobrar(p):
-    return p*2
+def diminuir(p=0,taxa=0):
+    res=p-(p*(taxa/100))
+    return res
 
-def metade(p):
-    return p/2
+def dobrar(p=0):
+    res=p*2
+    return res
+
+def metade(p=0):
+    res=p/2
+    return res
+
+def moeda(p=0,moeda='R$'):
+    return f'{moeda}{p:.2f}'.replace('.',',')
