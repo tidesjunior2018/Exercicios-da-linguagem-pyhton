@@ -11,4 +11,4 @@ taxa=int(input('Digite a taxa:[0-para indicar nenhuma taxa] '))
 if taxa == 0:
     utilidadescev.moeda.resumo(preco)
 elif taxa > 0 :
-    utilidadescev.resumo(preco,taxa)
+    utilidadescev.moeda.resumo(preco,taxa)
