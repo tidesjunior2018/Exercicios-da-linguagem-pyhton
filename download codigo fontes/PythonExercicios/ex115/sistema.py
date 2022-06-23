@@ -5,11 +5,23 @@ O sistema vai ter 2 opções:cadastrar uma nova pessoa e listar todas as pessoas
 ''' 
 
 from lib.interface import *
+from lib.arquivo import *
 from time import sleep
+
+arq='cursoemvideo.txt'
+
+if arquivoExiste(arq):
+    print('Arquivo encontrado com sucesso!!!')
+else:
+    print('Arquivo não encontrado')
+    criarArquivo(arq)
+
+    
 while True:
     resposta=menu(['Ver pessoas cadastradas','Cadastrar nova pessoa','Listar Pessoas','Sair do Sistema'])
     if resposta == 1:
-        cabecalho('Opção 1')
+        #listar pessoas cadastradas
+        leiaArquivo(arq)
     elif resposta == 2:
         cabecalho('Opção 2')
     elif resposta == 3:
