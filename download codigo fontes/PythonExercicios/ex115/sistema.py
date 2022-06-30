@@ -18,15 +18,17 @@ else:
 
     
 while True:
-    resposta=menu(['Ver pessoas cadastradas','Cadastrar nova pessoa','Listar Pessoas','Sair do Sistema'])
+    resposta=menu(['Ver pessoas cadastradas','Cadastrar nova pessoa','Sair do Sistema'])
     if resposta == 1:
         #listar pessoas cadastradas
         leiaArquivo(arq)
     elif resposta == 2:
-        cabecalho('Opção 2')
+        cabecalho('NOVO CADASTRO:')
+        nome=str(input('Nome:'))
+        idade=leiaInt('Idade:')
+        cadastrar(arq,nome,idade)
+        
     elif resposta == 3:
-        cabecalho('Opção 3')
-    elif resposta == 4:
         cabecalho('\033[36mSaindo do sistema...Até Breve!!!\033[m')
         break
     else:
